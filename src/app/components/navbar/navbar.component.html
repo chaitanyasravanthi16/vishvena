@@ -1,0 +1,52 @@
+<nav class="nav">
+  <div class="left">
+      <i class="fa-solid fa-envelope"></i>
+      <span>{{email}}</span>
+      <i class="fa-solid fa-phone"></i>
+      <span>{{phone}}</span>
+  </div>
+  <div class="right">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+  </div>
+</nav>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="#">
+      <img src="https://www.vishvena.com/assets/images/vishvena-logo.png" alt="logo" class="img-fluid logo">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#hamburgerModal" aria-controls="hamburgerModal" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" routerLink="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="#">Our Divisions</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/expertise">Expertise Areas</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/contact">Contact Us</a></li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="#"><i class="fas fa-search"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="#" data-bs-toggle="modal" data-bs-target="#detailsModal"><i class="fas fa-info-circle"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

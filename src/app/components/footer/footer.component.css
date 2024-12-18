@@ -1,0 +1,43 @@
+.bg {
+    background-color: rgb(42, 42, 78);
+    color: white;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+}
+.btn-custom {
+    border-radius: 25px;
+    height: 45px;
+    width: 150px;
+    font-size: 15px;
+    background-color: rgb(76, 76, 145);
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+.join {
+    border-radius: 15px;
+    height: 45px;
+    width: 70px;
+    font-size: 15px;
+    background-color: rgb(118, 149, 216);
+    color: white;
+    border: none;
+}
+.footer-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+address {
+    font-style: normal;
+    line-height: 1.5;
+}
+.footer-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.footer-link:hover {
+    color: #d3d3d3;
+}

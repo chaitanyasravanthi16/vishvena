@@ -1,0 +1,56 @@
+.img {
+  height: 400px;
+  width: 100vw;
+  background-image: url('https://media.istockphoto.com/photos/-picture-id1311934969?k=6&m=1311934969&s=170667a&w=0&h=i0Lm9EfUfdZ95-VWnKauM4lgPUDul1oI9yDa7RUkIt0=');
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.b {
+  height: auto;
+  background-color: #dce4e6;
+  width: 100vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bac {
+  height: auto;
+  width: 100vw;
+  background-color: #f0f0f0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+}
+
+.form-control {
+  border-radius: 25px;
+  background-color: #dce4e6;
+  border: none;
+  color: black;
+}
+
+.form-control::placeholder {
+  color: #555;
+}
+
+.btn-custom {
+  border-radius: 25px;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  background-color: hsl(256, 44%, 59%);
+  color: white;
+}
+
+textarea.form-control {
+  height: 100px;
+}
